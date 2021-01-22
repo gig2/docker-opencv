@@ -8,6 +8,6 @@ RUN apt update -q -y
 RUN apt upgrade -q -y
 RUN apt install -q -y apt-utils
 
-RUN apt install -q -y  python3
+RUN apt install -q -y  python3 \
   python3-pip \
   libopencv-*
